@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/css/style.css" >
+
+<title> Computer Vision Art Gallery : ECCV 2018 </title>
+</head>
+
+<body>
+<div class="container">
+
+<header>
+<div class="row">
+<div class="col">
+<h1>Computer Vision Art Gallery</h1>
+<p>
+In 2018, for the <a href="https://sites.google.com/view/eccvfashion/home">First Workshop on Computer Vision for Fashion, Art and Design</a>, at the European Conference on Computer Vision (ECCV) in Munich, Germany, a call was put out for artworks dealing with computer vision technologies.
+
+<p>
+In the call for submissions we wrote that "
+Computer vision techniques have long been connected to the arts. From the study
+of visual art with computer vision techniques, to the development of new vision
+techniques based on insights from the arts community, to artwork generated
+algorithmically, there is a rich history of exchange between the fields.
+
+<p>"Further, the outsized influence of computer vision techniques in socially
+important areas such as healthcare, ubiquitous surveillance, autonomous
+vehicles and robotics, and warfare makes a social and artistic engagement with
+the field vital."
+
+<p>Artists and technologists from around the world responded to the call, and
+our jury of 7 artists, organizers and curators working in art, AI and computer
+vision selected a diversity of pieces, some for novel techniques, some for
+interesting new uses of existing techniques, and some for the critical or
+philosophical perspective explored by the artwork
+
+</div>
+</div>
+</header>
+
+<main>
+
+<section>
+<div class="row">
+<div class="col">
+<h2>Shortlist</h2>
+</div>
+</div>
+
+<ul class="list-unstyled row pieces">
+{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "short") }}
+{{ .Render "li" }}
+{{ end }}
+
+</ul>
+</section>
+
+<section>
+<div class="row">
+<div class="col">
+<h2>Longlist</h2>
+</div>
+</div>
+
+<ul class="list-unstyled row pieces">
+{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "long") }}
+{{ .Render "li" }}
+{{ end }}
+
+</ul>
+</section>
+
+<section>
+<div class="row">
+<div class="col">
+<h2>All Accepted Works</h2>
+</div>
+</div>
+
+<ul class="list-unstyled row pieces">
+{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" nil) }}
+{{ .Render "li" }}
+{{ end }}
+</ul>
+</section>
+
+<div class="row">
+<div class="col-">
+<h2>Jury</h2>
+<ul>
+	<li><a href="http://elluba.com/">Luba Elliott</a></li>
+	<li><a href="http://quasimondo.com/">Mario Klingemann</a></li>
+	<li><a href="https://samim.io/">Samim Winiger</a></li>
+	<li><a href="http://sougwen.com/">Sougwen Chung</a></li>
+	<li><a href="http://wxs.ca/">Xavier Snelgrove</a></li>
+	<li><a href="https://www.vam.ac.uk/blog/author/irini-papadimitriou">Irini Papadimitriou</a></li>
+	<li><a href="http://genekogan.com/">Gene Kogan</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+<h2>Sponsors</h2>
+<ul>
+	<li><a href="http://elementai.com/">Element AI</a></li>
+	<li><a href="http://ibm.com/">IBM</a></li>
+	<li><a href="http://adobe.com/">Adobe</a></li>
+
+</ul>
+</div>
+
+</div>
+</main>
+
+</div>
+</body>
