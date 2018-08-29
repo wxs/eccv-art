@@ -1,7 +1,7 @@
 ---
 title: "When Schwitters Met Trump"
 year: 2017
-artist: "SK Choi"
+artist: "<a href='https://skchoi.org/'>SK Choi</a>"
 banner: "when-schwitters-met-trump.png"
 thumb: "thumb.png"
 ---

@@ -23,3 +23,12 @@ After creating a set of models that way, i continued to fine-tune them further
 - i wanted my generative artwork to be not only interesting and aesthetically
 pleasing but to reflect the characteristics of my analog art - improvised, bold
 and deeply personal…
+
+## More images from the series
+
+![part of the GAN series](01.jpg)
+![part of the GAN series](02.jpg)
+![part of the GAN series](03.jpg)
+![part of the GAN series](04.jpg)
+![part of the GAN series](05.jpg)
+![part of the GAN series](06.jpg)
