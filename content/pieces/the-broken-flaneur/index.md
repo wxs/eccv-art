@@ -14,3 +14,12 @@ detects objects in images, removes the objects, and replaces the objects with
 what the computer imagines is behind the object.
 
 {{< youtube 1QCFAwuIUUE >}}
+
+---
+
+![Image of the work](opt1.gif)
+![Image of the work](opt2.gif)
+![Image of the work](opt3.gif)
+![Image of the work](opt4.gif)
+![Image of the work](opt5.gif)
+![Image of the work](opt6.gif)
