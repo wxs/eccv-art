@@ -3,11 +3,14 @@
 {{if isset .Params "thumb"}}
 {{ $original := (.Resources.GetMatch .Params.thumb) }}
 {{ .Scratch.Set "image" ($original.Fill "256x256") }}
-{{ else }}
+{{ else if isset .Params "banner"}}
 {{ $original := .Resources.GetMatch .Params.banner }}
 {{ .Scratch.Set "image" ($original.Fill "256x256") }}
 {{ end }}
+
+{{if .Scratch.Get "image" }}
 <img src="{{ (.Scratch.Get "image").RelPermalink }}" />
+{{ end }}
 
 <div class="artist-name">
 {{ .Params.artist | plainify}} 

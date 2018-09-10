@@ -1,7 +1,7 @@
 ---
 title: "When Schwitters Met Trump"
 year: 2017
-artist: "<a href='https://skchoi.org/'>SK Choi</a>"
+artist: "<a href='https://skchoi.org/'>Suk Kyoung Choi</a>"
 banner: "when-schwitters-met-trump.png"
 thumb: "thumb.png"
 ---
@@ -34,3 +34,4 @@ not even recognize until it consumes us – man remade in the image of machine. 
 call this process 'the algorithmic pursuit of the mental image,' or, '*neural
 collage.*'
 
+{{< vimeo 288905112 >}}

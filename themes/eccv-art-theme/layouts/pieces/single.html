@@ -30,7 +30,9 @@
 <p><a href="{{ .Params.arturl }}">Website</a></p>
 {{ end }}
 
+{{if isset .Params "banner"}}
 <img class="banner" src="{{ .Params.banner }}" alt="Piece featured image" />
+{{ end }}
 
 {{ .Content }}
 </main>

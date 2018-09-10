@@ -2,45 +2,43 @@
 title: "The Uncertainty Principle"
 year: 2018
 artist: "<a href='http://concept-script.com/bio.html'>Héctor Rodriguez</a>"
-banner: "gallery08.png"
+banner: "about04.png"
 arturl: "http://concept-script.com/theUncertaintyPrinciple/index.html"
 ---
 
-*The Uncertainty Principle* consists of videos and an interactive application
-about information and uncertainty in the domain of image analysis.
+*The Uncertainty* Principle consists of videos and an interactive application
+about information and uncertainty in the domain of image analysis. The works
+were produced by applying a set of *2D Gabor filters* to still and moving images.
+Gabor filters identify various kinds of edges -- horizontal, vertical, and
+diagonal – by responding to specific visual frequencies in an image.
 
-The various elements of the work are produced by applying certain filters,
-known as 2D Gabor filters, to images. Gabor filters identify various kinds of
-edges -- horizontal, vertical, and diagonal -– by responding to specific visual
-frequencies in an image.
-
-# Videos
-
-The following two videos were made using Gabor filters. (It is recommended that
-the videos should be viewed in Vimeo using full-screen and in a relatively dark
-environment). The first video illustrates one possible function of the Gabor
-filters, whereas the second video is more self-reflexive, and calls attention
-to the filters themselves as artistic media. The first video has sound but the
-second is silent.
-
-The first video was made by identifying rain streaks in the opening sequence of
-Wong Kar-Wai's film *The Grandmaster*. The Gabor filters helped to detect visual
-frequencies corresponding to vertical edges on the image. Most other details in
-the sequence were removed.
+One video, entitled *Rain*, was made by recognizing rain streaks in the opening
+sequence of Wong Kar-Wai's film *The Grandmaster*. Used in combination with
+Non-Negative Matrix Factorization (NNMF), the Gabor filters responded to the
+visual frequencies that correspond to vertical edges on the image and removed
+most other details in the sequence. Empty space between rain streaks suggests
+the bodies of the fighters. The human figure is absent yet somehow present,
+referencing the role of empty space in Chinese philosophy and visual art. The
+original movie soundtrack involved a highly obtrusive pounding music, mixed
+with effects and diegetic sounds. We also used NNMF for blind audio source
+separation, and then manually removed those tracks that contained music,
+preserving only the diegetic sounds. 
 
 {{<vimeo 276827368>}}
 
-
-The second video was made by repeatedly processing a short segment from Ingmar
-Bergman’s film *Persona* (1966) using different Gabor image filters individually
-or in combination. The results are visualized by highlighting those parts of
-the image with a high response to the filter being applied, while darkening
-low-response pixels.
+A second video, *Folds*, was made by repeatedly applying a single Gabor filter to
+a short segment from Ingmar Bergman’s film *Persona*. The scene involves a boy
+moving on a bed, and the filters highlight the visual movement of the folds on
+the bedsheet. The repetitive structure of the video cues the viewer to pay
+close attention, both to the texture of the image and to the distinctive
+effects of the different edge-detectors. 
 
 {{<vimeo 248895912>}}
 
-The repetitive structure of the video is meant to encourage viewers to pay
-close attention, both to the texture of the image and to the distinctive
-effects of the different edge-detectors. Whereas mainstream narrative cinema
-encourages the viewer to focus on what happens next, this project draws
-attention to the details of the individual frame.
+The interactive application allows people to explore and experiment with the
+application of different filters to images in a database. The interactor can
+choose which filter to apply, and observe the resulting visual description of
+the image.
+
+The work is an example of self-reflexive technology. A technology, in this case
+the Gabor filters, is used not merely as a tool but as a formative context. 

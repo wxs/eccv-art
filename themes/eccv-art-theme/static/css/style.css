@@ -1,8 +1,9 @@
-main img {
+main img, main video {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 10px;
 }
+
 main .vimeo-embed {
 	position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
 	margin-bottom: 10px;
