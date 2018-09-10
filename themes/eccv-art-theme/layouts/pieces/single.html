@@ -14,36 +14,37 @@
 </head>
 
 <body>
+
 <div class="container">
 <div class="row">
 <div class="col-lg-8 col-md-8 col-sm-12">
-<header>
-<h1><a href="/">Computer Vision Art</a></h1>
-</header>
 
-<main>
-<h2 class="artist-name">{{ .Params.artist | safeHTML }}</h2>
+    <header>
+    <h1><a href="/">Computer Vision Art</a></h1>
+    </header>
 
-<h3><span class="art-title">{{ .Title }}</span>, <span class="art-year">({{ .Params.year }})</span></h3>
+    <main>
+    <h2 class="artist-name">{{ .Params.artist | safeHTML }}</h2>
 
-{{ if isset .Params "arturl" }}
-<p><a href="{{ .Params.arturl }}">Website</a></p>
-{{ end }}
+    <h3><span class="art-title">{{ .Title }}</span>, <span class="art-year">({{ .Params.year }})</span></h3>
 
-{{if isset .Params "banner"}}
-<img class="banner" src="{{ .Params.banner }}" alt="Piece featured image" />
-{{ end }}
+    {{ if isset .Params "arturl" }}
+    <p><a href="{{ .Params.arturl }}">Website</a></p>
+    {{ end }}
+
+    {{if isset .Params "banner"}}
+    <img class="banner" src="{{ .Params.banner }}" alt="Piece featured image" />
+    {{ end }}
 
 {{ .Content }}
-</main>
-<footer>
-<div class="sponsors">
-<p>Element AI
-<p>Adobe
-</div>
-</footer>
+
+
 </div>
 </div>
+</div>
+
+<div class="container">
+{{ partial "footer.html" }}
 </div>
 
 
