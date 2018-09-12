@@ -67,7 +67,7 @@ contribution.
 </div>
 
 <ul class="list-unstyled row pieces">
-{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "short") }}
+{{ range (sort (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "short") "Params.order") }}
 {{ .Render "li" }}
 {{ end }}
 
