@@ -5,6 +5,7 @@ artist: "<a href='http://annaridler.com/'>Anna Ridler</a>"
 banner: "test_598.png"
 arturl: "http://annaridler.com/mosaic-virus/"
 listed: "short"
+order: 0
 ---
 
 Drawing historical parallels from “tulip-mania” that swept across

@@ -1,5 +1,5 @@
 ---
-title: "Manoœvres"
+title: "Manœvres"
 year: 2018
 artist: "François Quévillon"
 banner: "maneouvres.jpg"

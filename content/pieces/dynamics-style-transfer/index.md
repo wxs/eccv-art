@@ -5,6 +5,7 @@ artist: "<a href='http://mtesfaldet.net'>Matthew Tesfaldet</a>"
 thumb: "thumb.jpg"
 arturl: "https://bit.ly/2sRbz2f"
 listed: "short"
+order: 1
 ---
 
 Through the use of Artificial Intelligence, a computational model

@@ -3,6 +3,7 @@ title: "Rhodops"
 year: 2017
 artist: "Hans Brouwer"
 banner: "rhodops.png"
+arturl: "https://jcbrouwer.github.io/projects/rhodops"
 ---
 
 Rhodops is a progressively grown generative adversarial network named after
