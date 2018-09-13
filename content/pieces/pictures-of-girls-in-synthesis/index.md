@@ -1,6 +1,6 @@
 ---
 title: "Pictures of *** Girls in Synthesis"
-year: 2017
+year: 2018
 artist: "Vered Heruti, Ayelet Sapirshtein and Eyal Gruss"
 banner: "girls_in_synthesis.jpg"
 ---
