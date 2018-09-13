@@ -2,7 +2,7 @@
 <a href="{{ .RelPermalink }}" >
 {{if isset .Params "thumb"}}
 {{ $original := (.Resources.GetMatch .Params.thumb) }}
-{{ .Scratch.Set "image" ($original.Fill "256x256") }}
+{{ .Scratch.Set "image" ($original.Resize "256x256") }}
 {{ else if isset .Params "banner"}}
 {{ $original := .Resources.GetMatch .Params.banner }}
 {{ .Scratch.Set "image" ($original.Fill "256x256") }}

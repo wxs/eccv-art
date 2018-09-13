@@ -5,6 +5,7 @@ artist: "<a href='https://znah.net'>Alexander Mordvintsev</a>"
 banner: "printed_bunny_crop.jpg"
 arturl: "https://distill.pub/2018/differentiable-parameterizations/"
 listed: "short"
+thumb: "thumb.jpg"
 order: 2
 ---
 
