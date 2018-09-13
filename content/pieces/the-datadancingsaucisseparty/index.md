@@ -27,7 +27,7 @@ People easily understand the training process and then the playing part.
 
  #HotDog #NotHotDog #DataDada
 
-data.bingo/en/
+http://data.bingo/en/
 
 
 # Who we are
@@ -41,7 +41,7 @@ bastien didier.
 You can google us ! We are really famous in France! We are using technology to
 do art, dada art, datadada art !!! 
 
-http://data-dada.net/en
+http://data-dada.net/index-en.htm
 
 {{<vimeo 276951108>}}
 
