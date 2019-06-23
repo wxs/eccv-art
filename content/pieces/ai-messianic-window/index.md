@@ -33,8 +33,6 @@ With thanks to
 
 Andreas Schmelas
 
-Andi Rueckel
-
 {{< youtube roK_Pc3hagE >}}
 
 ![A(.I.) Messianic Window images](01.jpg)
