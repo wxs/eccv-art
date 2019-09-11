@@ -13,6 +13,10 @@ them as fading curtains that rotate & reveal the underlying, composite,
 original image. Contrasting-color vegetation images and contrasting-geometry
 architectural images work especially well with this technique.
 
+{{< youtube yhg0WG2ppzQ >}}
+
+
+
 ![image of the artwork](ECCV2018Parson2.jpg)
 ![image of the artwork](ECCV2018Parson3.jpg)
 ![image of the artwork](ECCV2018Parson4.jpg)
