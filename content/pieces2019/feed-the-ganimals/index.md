@@ -2,7 +2,7 @@
 title: "Feed the Ganimals"
 year: 2019
 artist: "Zivvy Epstein, Océane Boulais, Matt Groh"
-banner: "ganimals.jpg"
+banner: "unnamed.jpg"
 arturl: "http://ganimals.media.mit.edu/index.html"
 ---
 

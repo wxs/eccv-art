@@ -2,7 +2,7 @@
 title: "Blackberry Winter"
 year: 2019
 artist: "Christian Mio Loclair"
-banner: "rescale_0006_bodyNewC.jpg"
+banner: "newPeace1.png"
 arturl: "https://christianmioloclair.com/blackberrywinter"
 ---
 

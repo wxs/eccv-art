@@ -3,6 +3,7 @@ title: "Japanese Tea Garden - Grand Scale Dreamscape Detail"
 year: 2019
 artist: "Daniel Ambrosi"
 banner: "tea-garden.jpg"
+thumb: "square.jpg"
 arturl: "https://www.danielambrosi.com/Portfolio/Dreamscapes-Behind-the-Scenes"
 ---
 

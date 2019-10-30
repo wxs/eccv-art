@@ -12,6 +12,8 @@ Taking the world of firearms as a starting point, this project explores the dist
 
 Between fiction and reality, this installation proposes an experience inspired by the protocols of security infrastructures and takes the individual as the starting point for a critical reflection about algorithmic biases; a narrative that refers to the trust and legitimisation of empowering decision-making of intelligent artefacts.
 
+{{< vimeo 333515915 >}}
+
 ***
 
 ## Artwork technical description

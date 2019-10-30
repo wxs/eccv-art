@@ -2,7 +2,7 @@
 title: "The Eyes of a Fly"
 year: 2019
 artist: "Dale E. Parson"
-banner: "eyes-of-a-fly.jpg"
+banner: "EyesOfFlyParsonCover.jpg"
 arturl: "https://www.youtube.com/watch?v=0fwNkH7Bdwc"
 ---
 

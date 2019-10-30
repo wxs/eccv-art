@@ -3,7 +3,8 @@ title: "CKRBT 1.0 «The Seeker»"
 year: 2019
 artist: "Nye Thompson"
 banner: "CKRBThero1-web.jpg"
-arturl: ""
+thumb: "CKRBThero8-web-sq.jpg"
+arturl: "https://youtu.be/fOS1r9fwmMY"
 listed: "short"
 ---
 
@@ -12,4 +13,4 @@ The CKRBT (pronounced see-ker-bot) Network is browsing the world. It watches and
 CKRBT is a new installation from Thompson’s ongoing project The Seeker which explores the emergence of the machine gaze and the hidden virtual power structures behind it. The Seeker is a machinic entity - a proto-AI - that travels the world virtually looking through compromised surveillance cameras and using machine learning algorithms to describe what it sees.
 
 This installation was first shown at Thompson's solo show CKRBT at Watermans Gallery in London.
-{{< youtube xv_kITdeCMQ >}}
+{{< youtube fOS1r9fwmMY >}}

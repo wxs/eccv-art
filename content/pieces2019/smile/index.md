@@ -6,7 +6,7 @@ banner: "smile2.jpg"
 arturl: "https://laurenzo.net/smile"
 ---
 
-Smile, is a mixed-media installation consisting of a screen situated in a black
+_Smile_, is a mixed-media installation consisting of a screen situated in a black
 box, mounted on the wall. The screen is black. However, when an interactor
 smiles at the installation, drone-footage of the ruins of Gaza, digitally
 slowed-down by the artist, fades in. If the interactor stops smiling, the videos
@@ -27,12 +27,6 @@ The 2014 50-day war between Israel and Hamas claimed the lives of more than 2,15
 Western cultural relationship with war often frames it from a fascinated alien
 perspective–war as entertainment. Simultaneously engaging in processes that do
 not alleviate the structural power inequalities that originate the conflict.
-
-Smile, is a mixed-media installation consisting of a screen situated in a black box,
-mounted on the wall. The screen is black. However, when an interactor smiles at
-the installation, drone-footage of the ruins of Gaza, digitally slowed-down by
-the artist, fades in. If the interactor stops smiling, the videos stops. It only
-plays when the interactor widely smiles at it.
 
  The installation reflects on the construction of a spectacle from otherwise dramatic
 news, as well as reflecting on the otherness and dehumanization of war.

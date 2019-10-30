@@ -2,8 +2,8 @@
 title: "Threshold"
 year: 2019
 artist: "Martin Adolfsson"
-banner: "threshold.png"
-arturl: "https://vimeo.com/352117349"
+banner: "threshold.jpg"
+arturl: "https://www.insanelittleprojects.com/threshold"
 listed: "short"
 ---
 

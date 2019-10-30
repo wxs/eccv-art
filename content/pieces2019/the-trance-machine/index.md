@@ -2,16 +2,18 @@
 title: "The Trance Machine"
 year: 2019
 artist: "SK Choi"
-banner: "trance-machine.jpg"
-arturl: "https://vault.sfu.ca/index.php/s/DX9ODcvx0Z6FuXk"
+banner: "RainStop.png"
+arturl: "https://www.youtube.com/watch?v=3KG7gN-GDr4&feature=youtu.be"
 ---
 
-The Trance Machine explores the liminal border between awareness and context.
+_The Trance Machine_ explores the liminal border between awareness and context.
 Starting from the idea that every image is a composition of successively smaller
 images, an ever-changing manifold of frames within frames - the artist's vision
 holds a tacit conversation with the poetic organization of light.
 
-Drawing on Richard Kostelanetz’s Illuminations, a visual poetics where words are
+{{< youtube 3KG7gN-GDr4 >}}
+
+Drawing on Richard Kostelanetz’s _Illuminations_, a visual poetics where words are
 addresses in a matrix of distributed meaning, I appropriate code as the tacit
 language of the machine and fashion its arrangement into messages that are
 recoded back into the image, a human perturbation of algorithmic precision,

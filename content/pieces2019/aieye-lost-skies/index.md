@@ -2,7 +2,7 @@
 title: "AIEye, Lost Skies"
 year: 2018
 artist: "Maja Petric"
-banner: "lost_skies.jpg"
+banner: "lost_skies_pollution_believer_and_skeptic.jpg"
 arturl: "https://www.majapetric.com/lost-skies"
 ---
 

@@ -2,7 +2,8 @@
 title: "Beast on a Leash"
 year: 2019
 artist: "Jeroen van der Most"
-banner: "beast.png"
+banner: "beast_on_a_leash.jpg"
+thumb: "beast_on_a_leash_square_thumbnail.jpg"
 arturl: "https://www.jeroenvandermost.com/#/beast-on-a-leash/"
 ---
 
