@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/css/style.css" >
+
+<title> {{ .Title }} </title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-5159448-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-5159448-2');
+</script>
+
+
+</head>
+
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-md-8 col-sm-12">
+
+    <header>
+    <h1><a href="/">Computer Vision Art</a></h1>
+    </header>
+
+    <main>
+    <h2 class="artist-name">{{ .Params.artist | safeHTML }}</h2>
+
+    <h3><span class="art-title">{{ .Title }}</span>, <span class="art-year">({{ .Params.year }})</span></h3>
+
+    {{ if isset .Params "arturl" }}
+    <p><a href="{{ .Params.arturl }}">Website</a></p>
+    {{ end }}
+
+    {{if isset .Params "banner"}}
+    <img class="banner" src="{{ .Params.banner }}" alt="Piece featured image" />
+    {{ end }}
+
+{{ .Content }}
+
+
+</div>
+</div>
+</div>
+
+<div class="container">
+{{ partial "footer.html" }}
+</div>
+
+
+</body>
+</html>

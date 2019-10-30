@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/css/style.css" >
 
-<title> Computer Vision Art Gallery : ECCV 2018 </title>
+<title> Computer Vision Art Gallery : ICCV 2019 </title>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5159448-2"></script>
@@ -28,13 +28,17 @@
 <div class="container">
 
 <header>
+
 <div class="row">
 <div class="col">
 <h1>Computer Vision Art Gallery</h1>
+
+<h2 style="color: #555555; font-style: oblique;">ICCV 2019, Seoul, Korea</h2>
+
 <p>
-In 2018, for the <a href="https://sites.google.com/view/eccvfashion/home">First
-	Workshop on Computer Vision for Fashion, Art and Design</a>, at the
-European Conference on Computer Vision (ECCV) in Munich, Germany, a call was
+In 2019, for the <a href="https://sites.google.com/view/cvcreative">Second
+Workshop on Computer Vision for Fashion, Art and Design</a>, at the
+International Conference on Computer Vision (ICCV) in Seoul, South Korea, a call was
 put out for artworks dealing with computer vision technologies.
 
 <p>Computer vision techniques have long been connected to the arts. From the study
@@ -45,11 +49,10 @@ algorithmically, there is a rich history of exchange between the fields.
 <p>In recent years the success of a new crop of generative models is creating
 excitement and change in vision and graphics, and these new approaches to
 creation have led to a rich community of artistic exploration as well, much of
-which is happening in online visual culture. Artists such as Mario Klingemann,
-Anna Ridler, Memo Akten and Kyle McDonald have incorporated computer vision
-techniques into their artistic practice to explore novel ways of representing
-the human form, experiment with datasets of their own drawings and critique the
-machine’s ability to understand the world.
+which is happening in online visual culture. Many artists have incorporated
+computer vision techniques into their artistic practice to explore novel ways of
+representing the human form, experiment with datasets of their own drawings and
+critique the machine’s ability to understand the world.
 
 <p>Further, the outsized influence of computer vision techniques in socially
 important areas such as healthcare, ubiquitous surveillance, autonomous
@@ -64,8 +67,17 @@ technical novelty, some for their aesthetic merit, some for their conceptual
 contribution.
 
 
+
 </div>
 </div>
+
+<div class="row">
+<div class="col">
+  <h2>Past Years</h2>
+  <a href="2018">ECCV 2018, Munich</a>
+</div>
+</div>
+
 </header>
 
 <main>
@@ -73,12 +85,12 @@ contribution.
 <section>
 <div class="row">
 <div class="col">
-<h2>Shortlist</h2>
+<h2>Winner</h2>
 </div>
 </div>
 
 <ul class="list-unstyled row pieces">
-{{ range (sort (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "short") "Params.order") }}
+{{ range (sort (where (where .Site.RegularPages "Type" "pieces2019") "Params.listed" "winner") "Params.order") }}
 {{ .Render "li" }}
 {{ end }}
 
@@ -88,12 +100,12 @@ contribution.
 <section>
 <div class="row">
 <div class="col">
-<h2>Longlist</h2>
+<h2>Shortlist</h2>
 </div>
 </div>
 
 <ul class="list-unstyled row pieces">
-{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" "long") }}
+{{ range (sort (where (where .Site.RegularPages "Type" "pieces2019") "Params.listed" "short") "Params.order") }}
 {{ .Render "li" }}
 {{ end }}
 
@@ -108,27 +120,12 @@ contribution.
 </div>
 
 <ul class="list-unstyled row pieces">
-{{ range (where (where .Site.RegularPages "Type" "pieces") "Params.listed" nil) }}
+{{ range (where (where .Site.RegularPages "Type" "pieces2019") "Params.listed" nil) }}
 {{ .Render "li" }}
 {{ end }}
 </ul>
 </section>
 
-<div class="row">
-<div class="col">
-<h2 id="jury">Jury</h2>
-<ul>
-	<li><a href="http://elluba.com/">Luba Elliott</a></li>
-	<li><a href="http://quasimondo.com/">Mario Klingemann</a></li>
-	<li><a href="https://samim.io/">Samim Winiger</a></li>
-	<li><a href="http://sougwen.com/">Sougwen Chung</a></li>
-	<li><a href="http://wxs.ca/">Xavier Snelgrove</a></li>
-	<li><a href="https://www.vam.ac.uk/blog/author/irini-papadimitriou">Irini Papadimitriou</a></li>
-	<li><a href="http://genekogan.com/">Gene Kogan</a></li>
-
-</ul>
-</div>
-</div>
 
 {{ partial "footer.html" }}
 

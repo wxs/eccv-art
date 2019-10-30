@@ -1,0 +1,26 @@
+<li class="col-lg-3 col-md-4 col-sm-6">
+<a href="{{ .RelPermalink }}" >
+{{if isset .Params "thumb"}}
+{{ $original := (.Resources.GetMatch .Params.thumb) }}
+{{ .Scratch.Set "image" ($original.Resize "256x256") }}
+{{ else if isset .Params "banner"}}
+{{ $original := .Resources.GetMatch .Params.banner }}
+{{ .Scratch.Set "image" ($original.Fill "256x256") }}
+{{ end }}
+
+{{if .Scratch.Get "image" }}
+<img src="{{ (.Scratch.Get "image").RelPermalink }}" />
+{{ end }}
+
+<div class="artist-name">
+{{ .Params.artist | plainify}} 
+</div>
+
+<div class="art-title-year">
+<span class="art-title">{{ .Title }}</span>,
+<span class="year">{{ .Params.year }}</span>
+</div>
+
+</a>
+</li>
+

@@ -1,0 +1,19 @@
+---
+title: "AIEye, Lost Skies"
+year: 2018
+artist: "Maja Petric"
+banner: "lost_skies.jpg"
+arturl: "https://www.majapetric.com/lost-skies"
+---
+
+Lost Skies are computer generated images that express the essence of our collective gaze at nature affected by climate change. In order to achieve this all-encompassing perspective, I utilize artificial intelligence (AI) system, AIEye, as an artistic tool and combine numerous points of view into individual archetypal images. AIEye algorithms, developed in collaboration with the computer scientists Mihai Jalobeanu*, search the internet and identify manifold views of the sky based on time, location, air pollution, and meteorological data. These complex mathematical systems review all of the found images, analyze their salient properties and summarize the data. The resulting artwork captures the sky as seen through varying human perspectives. AI provides me with a means to capture manifold of people’s views and combine them into a snapshot that reflects collective consciousness’ gaze at the sky.
+
+Mihai Jalobeanu, Ph.D., has been working for more than 20 years in software development, including developing autonomous intelligent systems that feature various aspects of robotics - control, perception, machine learning, software design, and interaction. He is a Principal at Microsoft Research focused on AI and robotics open systems.
+
+***
+
+As an artist, my goal is to elicit transformative sensory, cognitive and visceral experiences. To do so, I use cutting-edge technology as a vehicle of biophilia (nature-inspired design). My approach is based on the study of the innate human connection to nature. According to the biophilia hypothesis that was introduced by American biologist Edward O. Wilson, human beings have an innate instinct to connect emotionally with nature. As such, living organisms hold a biological need for connection with nature including natural landscapes, natural light and natural change of light. Tapping into the innate and universal relationship people have with nature provides me, as an artist, with more understanding about what compels people and what type of artistic content can truly be transformative. The purpose of this work is to engage people with their innate connection with nature and fellow humans to the degree that one recognizes unity with something greater than oneself, one feels the expansion of soul that to the degree that one is aware of the separation, one feels one's smallness in this vast and interconnected universe.
+
+To achieve an all-encompassing view that people have of nature impacted by climate change, I needed an extremely large number of images that document the manifold of people’s gaze at nature which I collected from the Internet, as the search results provide the best approximation there is of our collective perspective on each topic. The next step was to create one image that represents all the collected images. It is not a mere collage but an algorithmically processed essence of all the images. Such processing of the content could not be done by a human hand. Therefore, we developed AIEye to epitomize people's gaze at nature.
+
+AIEye algorithm is based on a non-standard use of various deep learning strategies. It is the result of extensive experimentation in generating images with a particular aesthetic. In this case, it is thought my aesthetic inspired by impressionist landscape painting. The algorithm performs a stochastic search for a representative combination of pixels (the generated image) and uses batches of input images from a large set, further augmented using simple image transformations. Each input image has a small, incremental contribution to the result, determined by a cost function and a learning rate parameter.

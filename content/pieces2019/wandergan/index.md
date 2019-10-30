@@ -1,0 +1,19 @@
+---
+title: "WanderGAN"
+year: 2018
+artist: "Eyal Gruss"
+banner: "wandergan.jpg"
+arturl: "https://youtu.be/pIrT_beCmd8"
+---
+
+An interactive search journey in the imagined visions of a neural network. Given
+a photo, an artificial intelligence painter tries to recreate its likeness, and
+takes us through a visual journey in its search for the perfect reproduction.
+The spectator can intervene in the process, and focus on areas of her interest
+in the intermediate imagery. The painter will then shift its efforts to recreate
+the chosen impression. The emerging experience may resemble wandering within a
+vision or a dream.
+
+{{< youtube pIrT_beCmd8 >}}
+
+Hello there
