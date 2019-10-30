@@ -1,8 +1,8 @@
 ---
 title: "Correction After Artemisia Gentileschi \"Lucretia\""
 year: 2019
-artist: "Robbie Barrat"
-#banner: ""
+artist: "<a href='https://robbiebarrat.github.io/'>Robbie Barrat</a>"
+banner: "lucretia.jpeg"
 arturl: ""
 listed: "short"
 ---

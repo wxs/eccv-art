@@ -2,8 +2,8 @@
 title: "Stone to Sea"
 year: 2019
 artist: "Océane Boulais, Maryam Ashroori, Brandon Leshchinskiy"
-#banner: ""
-arturl: "https://oceaneboulais.github.io/Climate-Change-Awareness/"
+banner: "ICCV.png"
+arturl: "https://stonetosea.github.io/"
 ---
 
 We modified an open-source GAN (Generative Adversarial Network) to enable
@@ -13,6 +13,8 @@ facial features amidst a changing landscape. Today, climate change is causing
 destructive sea-level rise felt by many Micronesians. This work explores
 visceral imagery to accompany the dramatic change in topography over time as a
 result of climate change.
+
+{{< youtube kLHoyI2guu0 >}}
 
 ***
 

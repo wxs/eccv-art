@@ -1,9 +1,9 @@
 ---
 title: "Latent Space Interpolation"
 year: 2019
-artist: "Mattie Tesfaldet"
-#banner: ""
-arturl: "https://arxiv.org/abs/1909.09273"
+artist: "<a href='https://mtesfaldet.net/'>Mattie Tesfaldet</a>"
+banner: "mattie_xavier.png"
+arturl: "https://imgur.com/a/aYFdNVU"
 ---
 
 Latent space interpolation between images of Mattie Tesfaldet and Xavier
@@ -14,6 +14,8 @@ F-CPPNs, however, map (x, y) pixel coordinates to Fourier coefficients, which
 are then fed to an Inverse Discrete Fourier Transform (IDFT) to produce (r, g,
 b) values. By explicitly modelling frequency information, greater output detail
 is achieved.
+
+<video loop autoplay src='interpolation.mp4'></video>
 
 ***
 

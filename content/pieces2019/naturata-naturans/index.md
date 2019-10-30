@@ -1,9 +1,9 @@
 ---
 title: "Naturata Naturans"
 year: 2019
-artist: ""
-#banner: ""
-arturl: ""
+artist: "Julian Tapales"
+banner: "FEATURED_IMAGE.png"
+arturl: "https://tapal.es/"
 ---
 
 This work celebrates the life of a symbol, as it is upheld by a group of people in a specific time and place, and explores how its meaning changes when it is deconstructed, synthesized and represented digitally. Placing itself in an ancient tradition of art theory, this work revisits the vexed question: whether the task of art is to represent nature as it is, or to replicate the generative activity that constitutes the essence of nature itself.

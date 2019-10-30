@@ -1,6 +1,10 @@
 .container {
 	margin-top: 40px;
+}
 
+.subtitle {
+	color: #555555;
+	font-style: oblique;
 }
 
 header {
