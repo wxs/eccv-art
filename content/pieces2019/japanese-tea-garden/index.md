@@ -4,7 +4,7 @@ year: 2019
 artist: "Daniel Ambrosi"
 banner: "tea-garden.jpg"
 thumb: "square.jpg"
-arturl: "https://www.danielambrosi.com/Portfolio/Dreamscapes-Behind-the-Scenes"
+arturl: "https://www.danielambrosi.com/JTG-GrandScaleDetail/"
 ---
 
 My initial experiments in computational photography were driven by my desire to
